@@ -1,0 +1,26 @@
+import { createTheme } from "@fluentui/style-utilities";
+export const myTheme = createTheme({
+    palette: {
+      themePrimary: '#ffffff',
+      themeLighterAlt: '#767676',
+      themeLighter: '#a6a6a6',
+      themeLight: '#c8c8c8',
+      themeTertiary: '#d0d0d0',
+      themeSecondary: '#dadada',
+      themeDarkAlt: '#eaeaea',
+      themeDark: '#f4f4f4',
+      themeDarker: '#f8f8f8',
+      neutralLighterAlt: '#000000',
+      neutralLighter: '#000000',
+      neutralLight: '#000000',
+      neutralQuaternaryAlt: '#000000',
+      neutralQuaternary: '#000000',
+      neutralTertiaryAlt: '#000000',
+      neutralTertiary: '#074639',
+      neutralSecondary: '#0e8b72',
+      neutralPrimaryAlt: '#14cca7',
+      neutralPrimary: '#17e8be',
+      neutralDark: '#4beecd',
+      black: '#78f2da',
+      white: '#000000',
+    }});
