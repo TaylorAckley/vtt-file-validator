@@ -1,7 +1,10 @@
+import { Stylesheet } from "@fluentui/react";
+import styles from '../styles/Home.module.css'
+
 const VTTContent = (props: any) => {
     return (
-        <pre>
-            { props.vttContent }
+        <pre className={ styles.flexContainer }>
+            {props.vttContent}
         </pre>
     );
 }

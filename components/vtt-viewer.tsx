@@ -1,6 +1,8 @@
+import { Stylesheet } from "@fluentui/react";
 import React from "react"
 import Uploader from "./file-upload";
 import VTTContent from "./vtt-content";
+import styles from '../styles/Home.module.css'
 
 interface IVTTViewer {
     hasFile: boolean;
@@ -33,7 +35,7 @@ class VTTViewer extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className={ styles.flexContainer  }>
                 { !this.state.hasFile && <Uploader onFileRead={this.onFileRead}></Uploader>  }
                 { this.state.hasFile && <VTTContent vttContent={this.state.vttContent} ></VTTContent>  }
             </div>
