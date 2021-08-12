@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Placeholder for what are VTT files
+          VTT files 
         </p>
 
         <div className={styles.grid}>
